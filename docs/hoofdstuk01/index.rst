@@ -12,4 +12,5 @@ Use what happens naturally, don't fight it. In nature, dead trees are just as no
    :maxdepth: 1
    :caption: Further reading
 
-   vision
+   CONFIGURATIE.md
+   DECISION-RECORD.md
