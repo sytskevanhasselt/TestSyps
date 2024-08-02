@@ -10,6 +10,9 @@
       white-space: nowrap !important;
    }
    .wy-table-responsive table {
+      width: auto !important;
+      max-width: 100% !important;
+      overflow-x: auto;
       background-color: white;
    }
    .wy-table-responsive {
