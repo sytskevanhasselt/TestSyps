@@ -10,3 +10,4 @@ Dit is een repo waar ik vooral allerhande RTD zaakskes wil kunnen testen.
 
    intro.md
    INSTALLATION.md
+   hoofdstuk01/index
