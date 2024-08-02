@@ -5,8 +5,7 @@ Dit is een repo waar ik vooral allerhande RTD zaakskes wil kunnen testen.
 
 
 .. toctree::
-   :maxdepth: 1
-   :hidden:
+   :maxdepth: 2
 
    intro.md
    installation.md
