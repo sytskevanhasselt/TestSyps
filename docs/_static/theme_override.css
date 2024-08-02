@@ -28,3 +28,7 @@
 .rst-content a:focus, .rst-content a:hover {
   color: #051F31;
 }
+
+.wy-nav-content {
+    max-width: 1200px !important;
+}
