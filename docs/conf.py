@@ -40,6 +40,7 @@ copyright = "2024"
 extensions = [
     "sphinx.ext.todo",
     "sphinx_rtd_theme",
+    "myst_parser",
     #     "recommonmark",
     #    "sphinx_markdown_tables",
 ]
