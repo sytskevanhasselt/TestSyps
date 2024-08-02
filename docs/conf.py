@@ -39,7 +39,6 @@ copyright = "2024"
 # ones.
 extensions = [
     "sphinx.ext.todo",
-    "sphinx_tabs.tabs",
     "sphinx_rtd_theme",
     "recommonmark",
     #    "sphinx_markdown_tables",
