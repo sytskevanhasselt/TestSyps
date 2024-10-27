@@ -22,6 +22,8 @@ build:
 sphinx:
   configuration: docs/conf.py
 
+# met bovenstaande is mkdocs.yml niet meer nodig. Want die hoort bij
+# mkdocs, en we doen nu dus sphin
 #  overgenomen uit sphinx_rtd_theme/.readthedocs.yml
 
 python:
