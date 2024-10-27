@@ -45,7 +45,6 @@ extensions = [
     "sphinx_rtd_theme",
     "myst_parser",
     "sphinx.ext.todo",
-    "recommonmark",
     "sphinx_markdown_tables",
     "sphinx_tabs.tabs",
 ]
