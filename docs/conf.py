@@ -97,13 +97,14 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 
-html_static_path = ["_static"]
 
 # ik weet niet zo goed waar deze vandaan komt. En ik heb dus wel een theme_override.css
 # Ik weet niet helemaal wat die doet, maar ik ga m toch gebruiken. 
+# ik zet deze comment boven html_static, omdat copilot dat suggereert. 
 
+html_static_path = ["_static"]
 html_css_files = [
-    "theme_overrides.css",  # override wide tables with word wrap
+    "theme_override.css",  # override wide tables with word wrap
 ]
 
 # deze komt ook uit openzaak
