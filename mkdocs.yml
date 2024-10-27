@@ -1,9 +1,9 @@
 site_name: Test van Syps
-site_url: https://readthedocs.org/projects/klantinteractie-servicesysteem/
+site_url: https://readthedocs.org/projects/TestSyps/
 
 nav:
   - Home: index.md
   - Intro: intro.md
   - Installatie: INSTALLATION.md
   
-theme: readthedocs
+theme: sphinx_rtd_theme
