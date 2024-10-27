@@ -8,19 +8,17 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath("../src"))
+# ONDERSTAANDE KOMT UIT openzaak 
+# maar het pad ../src gaat naar de source van heel openzaak. 
+# dus onderstaande gebruik ik maar niet. 
+# import django
+# sys.path.insert(0, os.path.abspath("../src"))
 
-# # import objects  # noqa isort:skip
+# onderstaande komt uit https://github.com/readthedocs/readthedocs.org/blob/main/docs/conf.py
+# dus daarvan neem ik dan ook de map _ext over, met daarin alleen 
+# readthedocs.org/docs/_ext/djangodocs.py
 
-# from objects.setup import setup_env  # noqa isort:skip
-
-# TODO: This needs to be enabled when we want to use autodoc to grab
-# documentation from classes and functions. However, enabling django.setup()
-# causes RTD to fail because GDAL is not present in the RTD environment.
-# See: https://github.com/readthedocs/readthedocs-docker-images/issues/114#issuecomment-570566599
-#
-# setup_env()
-# django.setup()
+sys.path.append(os.path.abspath("_ext"))
 
 # -- Project information -----------------------------------------------------
 
