@@ -1,4 +1,4 @@
-Inleiding
+Hoofdstuk 01 Inleiding
 =========
 
 Dit is de intro op hoofdstuk 1. En bedoeld om een onderliggende reekst md files te onstluiten. 

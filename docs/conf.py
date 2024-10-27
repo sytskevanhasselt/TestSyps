@@ -45,9 +45,6 @@ extensions = [
     "sphinx_rtd_theme",
     "myst_parser",
     "sphinx.ext.todo",
-    "recommonmark",
-    "sphinx_markdown_tables",
-    "sphinx_tabs.tabs",
 ]
 
 
@@ -103,13 +100,14 @@ html_theme_options = {
 html_static_path = ["_static"]
 
 # ik weet niet zo goed waar deze vandaan komt. En ik heb dus wel een theme_override.css
-# maar ik weet niet at die doet. Dus die ga ik niet gebruiken. 
+# Ik weet niet helemaal wat die doet, maar ik ga m toch gebruiken. 
 
-# html_css_files = [
-#     "theme_overrides.css",  # override wide tables with word wrap
-# ]
+html_css_files = [
+    "theme_overrides.css",  # override wide tables with word wrap
+]
 
 # deze komt ook uit openzaak
 # maar zij gebruiken gegenereerde content. dus deze gebruik ik ook niet
+#
 # todo_include_todos = True
 
